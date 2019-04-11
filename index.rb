@@ -19,7 +19,6 @@ class Mycalss
   			puts("#{b} is greater")
   		else
   			puts("#{c} is greater")
-  		
   		end	
    end
 
@@ -51,6 +50,7 @@ end
 # Create a new object
 myObj = Mycalss.new()
 # Output "Hello Ruby!"
+myObj.add1
 myObj.evenOdd
 myObj.graterThen
 myObj.forloop
