@@ -1,5 +1,4 @@
-# The Hello Class
-class Hello
+class Mycalss
    
    def evenOdd( )
       	a=10
@@ -50,8 +49,8 @@ class Hello
 end
 
 # Create a new object
-h = Hello.new()
+myObj = Mycalss.new()
 # Output "Hello Ruby!"
-h.evenOdd
-h.graterThen
-h.forloop
+myObj.evenOdd
+myObj.graterThen
+myObj.forloop
