@@ -35,16 +35,29 @@ class Mycalss
      	for i in 1..5 do
          print i,  " "
          break if i == 2
+         
     end
+	
 	end
-   	
+   	puts "\n"
    	end		
 
    def add1( )
-    @b = 20
-    puts(@b)
-   end
- 
+    	@b = 20
+    	puts(@b)
+	end
+
+
+def starpro()
+
+	a = 1
+	while a <= 5
+  	puts "* " * a
+  	a += 1
+	end
+end	
+
+
 end
 
 # Create a new object
@@ -54,3 +67,4 @@ myObj.add1
 myObj.evenOdd
 myObj.graterThen
 myObj.forloop
+myObj.starpro

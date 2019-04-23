@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<h2>Product List</h2><a href="/product/add_product">Add Product</a>
+
+<table>
+  <tr>
+    <th>Sku No.</th>
+    <th>Product Name</th>
+    <th>Price</th>
+    <th>Action</th>
+  </tr>
+  <% @products.each do |product| %>
+  <tr>
+    <td><%= product.sku_no %></td>
+    <td><%= product.product_name %></td>
+    <td><%= product.price %></td>
+    <td><a href="/product/show_product">Show</a>|DELETE</td>
+  </tr>
+ <% end %>
+</table>
+
+</body>
+</html>

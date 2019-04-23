@@ -1,9 +1,11 @@
 class Abc
 
+
+
 def show
 
-a=10
-puts a
+
+puts m
 
 
 end	

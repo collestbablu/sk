@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  rollno: 1
+  dob: 2019-04-17
+
+two:
+  name: MyString
+  rollno: 1
+  dob: 2019-04-17
